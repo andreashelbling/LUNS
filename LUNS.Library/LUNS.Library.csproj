@@ -1,0 +1,31 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFrameworks>net48;netstandard2.1</TargetFrameworks>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+    <Authors>Andreas Helbling</Authors>
+    <Company>-</Company>
+    <Product>Local UDP Network Simulator</Product>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <Description>The LUNS.Library package provides the core functionality to create simulated UDP networks. A network can be defined with several nodes and routes. Each route can have specific network quality settings. Using a built-in router for UDP unicast and UDP multicast packets, any application traffic is routed according to the network.</Description>
+    <Copyright>Copyright (c) 2023 Andreas Helbling.</Copyright>
+    <PackageProjectUrl>https://github.com/andreashelbling/LUNS</PackageProjectUrl>
+    <PackageTags>udp network simulator library tests traffic shaping</PackageTags>
+    <AssemblyVersion>1.0.7.0</AssemblyVersion>
+    <FileVersion>1.0.7.0</FileVersion>
+    <Version>1.0.7</Version>
+    <PackageIcon>Icon.png</PackageIcon>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <DocumentationFile>LUNS.Library.xml</DocumentationFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="Icon.png" Pack="true" PackagePath="\" />
+    <None Include="docs\README.md" Pack="true" PackagePath="\" />
+  </ItemGroup>
+
+</Project>
